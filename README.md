@@ -24,10 +24,10 @@ conda activate llmapp
 pip install -r requirements.txt
 ```
 
-### Create a `.env` file in the root directory and add your OPENAI_API_KEY credentials as follows:
+### Create a `.env` file in the root directory and add your HF_TOKEN credentials as follows:
 
 ```ini
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+HF_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
@@ -47,7 +47,7 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- Groq
-- Llama 3
+- HuggingFace
+- Mistral
 - ChoromaDB
 
